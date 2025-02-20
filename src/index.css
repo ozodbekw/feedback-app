@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f7f8fd;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Jost";
+}
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/jost-v18-latin-regular.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/jost-v18-latin-500.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/jost-v18-latin-700.woff2") format("woff2");
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-[1110px];
+  }
+}
+
+@layer components {
+  #root {
+    @apply w-full min-h-screen;
+  }
+}

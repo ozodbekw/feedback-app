@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #f7f8fd;
+  /* background: #f7f8fd; */
+  background-color: #222;
   margin: 0;
   display: flex;
   place-items: center;
@@ -40,7 +41,7 @@ body {
 
 @layer components {
   .container {
-    @apply mx-auto w-full max-w-[1110px];
+    @apply mx-auto w-full max-w-[1110px] px-10;
   }
 }
 

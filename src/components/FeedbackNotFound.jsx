@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function FeedbackNotFound() {
   return (
-    <div className="bg-white px-[209px] py-[110px] rounded-[10px] flex flex-col items-center gap-[53px]">
+    <div className="bg-white px-[209px] py-[110px] rounded-[10px] flex flex-col items-center gap-[53px] container">
       <img src="./notFound.png" alt="" />
       <div className="flex flex-col items-center">
         <h2 className="text-[#3A4374] font-bold text-[24px]">

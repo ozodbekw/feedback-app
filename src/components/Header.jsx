@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex flex-col gap-6">
-      <div className="pl-6 pt-[62px]  w-[255px] h-[137px] bg-radial-gradient rounded-[10px] text-left">
+    <header className="container flex flex-col gap-6 mx-auto sm:flex-row sm:justify-between">
+      <div className="pl-6 pt-[62px]  w-[255px] h-[137px] md:h-full bg-radial-gradient rounded-[10px] text-left">
         <h2 className="font-bold text-white text-[20px] ">Frontend Mentor</h2>
         <p className="font-medium text-white">Feedback Board</p>
       </div>
